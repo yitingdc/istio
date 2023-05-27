@@ -731,6 +731,8 @@ message PilotConfig {
 
   google.protobuf.Value tag = 35;
 
+  repeated google.protobuf.Struct topologySpreadConstraints = 36;
+
   string variant = 39;
 
   // The Container seccompProfile
